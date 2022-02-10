@@ -1,0 +1,31 @@
+.container-one {
+    width: 800px;
+    height: 150px;
+    background-color: #000000;
+}
+.container-one h1 {
+    font-family: cursive;
+    font-size: 38px;
+    font-weight: 800;
+    color: #c0c0c0;
+}
+.container-one input {
+    border-radius:  8px 0px 0px 8px;
+    padding: 6px 20px;
+    border: solid 1px #8b8b8bcc;
+    width: 60%;
+    max-width: 250px;
+    height: 39px;
+}
+.container-one button {
+    border-radius:  0px 8px 8px 0px;
+    padding: 6px 20px;
+    color: white;
+    background-color: #008000;
+    margin-left: -1px;
+    border: none;
+    height: 54px;
+}
+.container-one button:hover {
+    background-color: #cd853f;
+}

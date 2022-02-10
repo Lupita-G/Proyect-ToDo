@@ -1,0 +1,48 @@
+.container-three {
+  margin-top: 50px;
+  border-radius: 8px 0px 0px 8px;
+  padding: 6px 20px;
+  border: solid 1px #8b8b8bcc;
+  width: 300px;
+  height: 39px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 200px 50px 50px;
+  grid-template-areas: "list  btnone btntwo" ;
+  margin-left: 200px;
+}
+.container-three li {
+    list-style: none;
+}
+.container-three .btnone {
+  border-radius: 0px;
+  padding: 6px 20px;
+  color: white;
+  background-color: #c0c0c0;
+  border: none;
+  height: 54px;
+  margin-top: -7px;
+  margin-left: 100px;
+  width: 70px;
+
+
+}
+
+.container-three .btntwo {
+  border-radius: 0px 8px 8px 0px;
+  padding: 6px 20px;
+  color: white;
+  background-color: #c0c0c0;
+  border: none;
+  height: 54px;
+  margin-top: -7px;
+  margin-left: 120px;
+  width: 70px;
+
+}
+.container-three .btnone:hover {
+  background-color: #008000;
+}
+.container-three .btntwo:hover {
+  background-color: #cd853f;
+}
